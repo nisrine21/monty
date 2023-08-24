@@ -1,6 +1,7 @@
+#define _GNU_SOURCE
 #include "monty.h"
 #include <string.h>
-#include <stdio.h> // Include the required header for getline
+#include <stdio.h>
 
 void free_tokens(void);
 unsigned int token_arr_len(void);
